@@ -10,8 +10,16 @@
 </head>
 <body>
     
-    <div id="output-random"></div>
-    <div id="output-result"></div>
+    <main>
+        <div>
+            <label for="n-input">Inserire quantità di numeri mostrati</label>
+            <input type="number"  id="n-input" name="n-input" min="0" max="20">
+            <button class="btn btn-success">invia</button>
+            <div id="generation"></div>
+        </div>
+        <div id="output-random"></div>
+        <div id="output-result"></div>
+    </main>
 
     <script src="script/utility.js"></script>
     <script src="script/script.js"></script>
